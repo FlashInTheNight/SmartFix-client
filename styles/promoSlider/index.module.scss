@@ -1,0 +1,37 @@
+.swiper_wrapper {
+  position: relative;
+}
+
+.navigation_btn {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.my_bullet {
+  background-color: "#999999";
+}
+
+.my_bullet_active {
+  background-color: "#FFBA08";
+}
+
+.swiper_container {
+  --swiper-pagination-bullet-size: 0;
+  @media (min-width: 1024px) {
+    --swiper-pagination-color: #ffba08;
+    --swiper-pagination-bullet-inactive-color: #fff;
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-size: 16px;
+    --swiper-pagination-bullet-horizontal-gap: 6px;
+  }
+  &__dark_mode {
+    --swiper-pagination-bullet-inactive-color: #2d2d2d;
+  }
+}
+
+
+.swiper_item {
+  width: 100%;
+  height: auto;
+  max-height: 502px;
+}

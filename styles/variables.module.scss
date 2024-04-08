@@ -1,0 +1,14 @@
+// colors
+$primary-color: #64ff00;
+$white: #fafbfc;
+$hover: #ffc540;
+
+// breakpoints
+$mobile: 375px;
+$tablet: 768px;
+$laptop: 1024px;
+$laptop-l: 1440px;
+
+:export {
+  primaryColor: $primary-color;
+}
